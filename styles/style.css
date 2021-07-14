@@ -11,6 +11,10 @@
             overflow-x: hidden;
         }
         
+        h1 {
+            white-space: nowrap;
+        }
+        
         .container {
             background-color: #2D25A0;
             width: 100%;
@@ -422,5 +426,105 @@
                 width: 294px;
                 height: 80px;
                 margin-bottom: 10px;
+            }
+        }
+        /*---------------------------------------- 
+                  Bounus Section Styles
+          -------------------------------------- */
+        
+        .container-bonus {
+            background-color: white;
+            margin-left: 100px;
+            margin-right: 100px;
+            align-items: center;
+            padding: 30px;
+            margin-top: 21px;
+            border-radius: 5px;
+            margin-bottom: 200px;
+        }
+        
+        .bonus-title {
+            margin-left: 280px;
+            margin-bottom: -30px;
+        }
+        
+        .more-info {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 150px;
+            margin-right: 100px;
+            border: 5px solid gray;
+            background-color: white;
+            box-shadow: 2px 2px 2px 2px black;
+            transition: border-width 0.6s linear;
+        }
+        
+        .info:hover {
+            border-top: 5px solid rgb(177, 174, 174);
+        }
+        
+        .sports-ball img {
+            height: 370px;
+            width: 650px;
+            margin-bottom: -8px;
+        }
+        
+        .sports-info {
+            margin-left: 80px;
+            margin-right: 50px;
+        }
+        
+        .sports-info h1 {
+            font-size: 20px;
+            background-color: black;
+            width: 150px;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .sports-info h3 {
+            font-size: 18px;
+        }
+        
+        .bonus-icon {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .bonus-icon:hover {
+            color: rgb(74, 6, 233);
+            border-radius: 10px;
+        }
+        
+        .fa-chevron-right {
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        /* Bonus Section Responsive Style Start  */
+        /* Mobile Devices */
+        
+        @media only screen and (max-width:688px) {
+            .container-bonus {
+                margin-bottom: 200px;
+            }
+            .info {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: -110px;
+            }
+            .sports-ball img {
+                height: 300px;
+                width: 320px;
+            }
+            .bonus-title {
+                margin-left: 15px;
+                margin-top: 0;
             }
         }
