@@ -381,22 +381,10 @@
             /*--------------------------------------------------
                 HighLightd Responsive Area 
      ---------------------------------------------------*/
-            /* .players-area {
-                display: grid;
-                grid-template-columns: repeat(1, 1fr);
-                grid-row-gap: 40px;
-                justify-content: center;
-            } */
             .highlights-area {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                /* grid-row-gap: 40px;
-                justify-content: center; */
             }
-            /* .highlights {
-                display: flex;
-                justify-content: space-between;
-            } */
             .highlights-text {
                 font-size: 30px;
                 color: #0A0826;
@@ -507,6 +495,7 @@
             margin-top: 24px;
             margin-left: 10px;
         }
+        /* Bonus section two style section */
         /* Bonus Section Responsive Style Start  */
         /* Mobile Devices */
         
@@ -526,5 +515,23 @@
             .bonus-title {
                 margin-left: 15px;
                 margin-top: 0;
+            }
+        }
+        /* Responsive Style For Tab of Bonus Section */
+        
+        @media only screen and (min-width:690px) and (max-width:1024px) {
+            .container-bonus {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .bonus-title {
+                margin-left: 45px;
+                margin-top: 0;
+                text-align: center;
+            }
+            .info {
+                display: flex;
+                flex-wrap: wrap;
             }
         }
