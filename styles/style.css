@@ -241,7 +241,9 @@ footer p {
 /* For Mobile Device */
 
 @media only screen and (max-width:688px) {
-    /* nav responsive style */
+    /*--------------------------------------------------
+                Nav Responsive Area 
+     ---------------------------------------------------*/
     .nav-item a {
         display: none;
     }
@@ -251,15 +253,12 @@ footer p {
         background-color: #E02C6D;
         padding: 5px 14px;
     }
-    /* Featured Responsive style */
-    /* .container {
-        width: 100%;
-        height: 100%;
-    } */
+    /*--------------------------------------------------
+                Featured Responsive Area 
+     ---------------------------------------------------*/
     .featured {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* flex-direction: column; */
     }
     .featured-text {
         font-size: 32px;
@@ -275,37 +274,35 @@ footer p {
     .featured-game img {
         width: 359px;
         height: 250px;
-        /* margin-top: 56px;
-        margin-right: 156px;
-        margin: 30px; */
-        /* padding: 20px; */
     }
     .featured-game:hover img {
         transform: scale(1) rotate(360deg);
         transition: 2s ease-in-out;
     }
+    /*--------------------------------------------------
+                Palyers Responsive Area 
+     ---------------------------------------------------*/
     .players {
-        /* grid-template-columns: repeat(1, 1fr); */
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0px;
     }
+    /*--------------------------------------------------
+                HighLightd Responsive Area 
+     ---------------------------------------------------*/
     .players-area {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 40px;
         justify-content: center;
-        margin-bottom: 50px;
     }
     .highlights-text {
         font-size: 30px;
         color: #0A0826;
         margin-left: 20px;
-        /* margin-top: 50px; */
         font-weight: 700;
-        margin-bottom: 27px;
         line-height: 45px;
+        margin-top: -100px;
     }
     .highlights-game img {
         height: 248px;
@@ -315,9 +312,13 @@ footer p {
     .watch {
         margin-left: 20px;
     }
+    /*--------------------------------------------------
+                Footer Responsive Area 
+     ---------------------------------------------------*/
     .footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-top: -100px;
     }
     .footer-logo img {
         width: 294px;
